@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tree
-%define	pnam	Simple
+%define		pdir	Tree
+%define		pnam	Simple
 Summary:	Tree::Simple - A simple tree object
 Summary(pl):	Tree::Simple - obiekt prostego drzewa
 Name:		perl-Tree-Simple
