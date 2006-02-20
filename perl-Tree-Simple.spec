@@ -8,13 +8,13 @@
 Summary:	Tree::Simple - A simple tree object
 Summary(pl):	Tree::Simple - obiekt prostego drzewa
 Name:		perl-Tree-Simple
-Version:	1.15
+Version:	1.16
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f4bb1afd402186952ea0b87ceeb3bc41
+# Source0-md5:	7f003a9af1aea6a9931c3de8fc49b3ab
 URL:		http://search.cpan.org/dist/Tree-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -43,17 +43,17 @@ structure and means of accessing and traversing said structure.
 %description -l pl
 Ten modu³ to w pe³ni obiektowo zorientowana implementacja prostego
 drzewa n-arnego. Jest zbudowany w oparciu i ideê relacji
-rodzic-dziecko, tak ¿e ka¿dy obiekt Tree::Simple ma rodzica oraz
-zbiór dzieci (które te¿ mog± mieæ dzieci, i tak dalej). Ka¿dy obiekt
+rodzic-dziecko, tak ¿e ka¿dy obiekt Tree::Simple ma rodzica oraz zbiór
+dzieci (które te¿ mog± mieæ dzieci, i tak dalej). Ka¿dy obiekt
 Tree::Simple ma tak¿e rodzeñstwo - czyli dzieci bezpo¶redniego
 rodzica.
 
 Modu³ mo¿e byæ u¿ywany do informacji o modelu hierarchicznym, takich
 jak system plików, struktura organizacyjna firmy, hierarchia
 dziedziczenia obiektów, wersjonowane pliki z systemu kontroli wersji
-czy nawet abstrakcyjne drzewo sk³adniowe do u¿ywania w parserze.
-Modu³ nie czyni ¿adnych za³o¿eñ co do wykorzystania, ale po prostu
-dostarcza strukturê oraz metody dostêpu i przechodzenia po strukturze.
+czy nawet abstrakcyjne drzewo sk³adniowe do u¿ywania w parserze. Modu³
+nie czyni ¿adnych za³o¿eñ co do wykorzystania, ale po prostu dostarcza
+strukturê oraz metody dostêpu i przechodzenia po strukturze.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
