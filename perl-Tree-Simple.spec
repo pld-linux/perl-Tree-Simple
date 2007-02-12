@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	Simple
 Summary:	Tree::Simple - A simple tree object
-Summary(pl):	Tree::Simple - obiekt prostego drzewa
+Summary(pl.UTF-8):   Tree::Simple - obiekt prostego drzewa
 Name:		perl-Tree-Simple
 Version:	1.16
 Release:	1
@@ -40,20 +40,20 @@ or even an abstract syntax tree for use in a parser. It makes no
 assumptions as to your intended usage, but instead simply provides the
 structure and means of accessing and traversing said structure.
 
-%description -l pl
-Ten modu≥ to w pe≥ni obiektowo zorientowana implementacja prostego
-drzewa n-arnego. Jest zbudowany w oparciu i ideÍ relacji
-rodzic-dziecko, tak øe kaødy obiekt Tree::Simple ma rodzica oraz zbiÛr
-dzieci (ktÛre teø mog± mieÊ dzieci, i tak dalej). Kaødy obiekt
-Tree::Simple ma takøe rodzeÒstwo - czyli dzieci bezpo∂redniego
+%description -l pl.UTF-8
+Ten modu≈Ç to w pe≈Çni obiektowo zorientowana implementacja prostego
+drzewa n-arnego. Jest zbudowany w oparciu i ideƒô relacji
+rodzic-dziecko, tak ≈ºe ka≈ºdy obiekt Tree::Simple ma rodzica oraz zbi√≥r
+dzieci (kt√≥re te≈º mogƒÖ mieƒá dzieci, i tak dalej). Ka≈ºdy obiekt
+Tree::Simple ma tak≈ºe rodze≈Ñstwo - czyli dzieci bezpo≈õredniego
 rodzica.
 
-Modu≥ moøe byÊ uøywany do informacji o modelu hierarchicznym, takich
-jak system plikÛw, struktura organizacyjna firmy, hierarchia
-dziedziczenia obiektÛw, wersjonowane pliki z systemu kontroli wersji
-czy nawet abstrakcyjne drzewo sk≥adniowe do uøywania w parserze. Modu≥
-nie czyni øadnych za≥oøeÒ co do wykorzystania, ale po prostu dostarcza
-strukturÍ oraz metody dostÍpu i przechodzenia po strukturze.
+Modu≈Ç mo≈ºe byƒá u≈ºywany do informacji o modelu hierarchicznym, takich
+jak system plik√≥w, struktura organizacyjna firmy, hierarchia
+dziedziczenia obiekt√≥w, wersjonowane pliki z systemu kontroli wersji
+czy nawet abstrakcyjne drzewo sk≈Çadniowe do u≈ºywania w parserze. Modu≈Ç
+nie czyni ≈ºadnych za≈Ço≈ºe≈Ñ co do wykorzystania, ale po prostu dostarcza
+strukturƒô oraz metody dostƒôpu i przechodzenia po strukturze.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
