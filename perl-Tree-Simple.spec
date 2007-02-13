@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	Simple
 Summary:	Tree::Simple - A simple tree object
-Summary(pl.UTF-8):   Tree::Simple - obiekt prostego drzewa
+Summary(pl.UTF-8):	Tree::Simple - obiekt prostego drzewa
 Name:		perl-Tree-Simple
 Version:	1.16
 Release:	1
