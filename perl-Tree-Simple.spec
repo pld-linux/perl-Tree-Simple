@@ -7,14 +7,14 @@
 Summary:	Tree::Simple - A simple tree object
 Summary(pl.UTF-8):	Tree::Simple - obiekt prostego drzewa
 Name:		perl-Tree-Simple
-Version:	1.18
+Version:	1.34
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	70462938108a8b8658b1b1d2f12dbeab
-URL:		http://search.cpan.org/dist/Tree-Simple/
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
+# Source0-md5:	b425592c0ddb0fc1883c6b6b7338e623
+URL:		https://search.cpan.org/dist/Tree-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
